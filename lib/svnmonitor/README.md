@@ -45,7 +45,7 @@ Currently getLatestCommits is the only functionality.
 If no limit is provided, all log entries are retrieved.
 
 
-revisions is structured as follows:
+revisions is structured as follows:  
 	[ { revision: '90 ',  
 	    author: ' schmeeky ',  
 	    date: ' 2009-12-06 18:12:44 +0100 (Sun, 06 Dec 2009) ',  
