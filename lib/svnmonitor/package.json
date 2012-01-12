@@ -1,0 +1,6 @@
+{
+	"name": "svnmonitor",
+	"version": "0.0.1",
+	"description": "A simple command-line wrapper for getting log info from a Subversion repo",
+	"main": "./lib/svnmonitor"
+}
