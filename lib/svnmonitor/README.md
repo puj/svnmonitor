@@ -44,6 +44,7 @@ Url is required.
 Currently getLatestCommits is the only functionality. 
 If no limit is provided, all log entries are retrieved.
 
+
 revisions is structured as follows:
 	[ { revision: '90 ',  
 	    author: ' schmeeky ',  
