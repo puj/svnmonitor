@@ -1,6 +1,13 @@
 {
 	"name": "svnmonitor",
-	"version": "0.0.1",
+	"author" : "Puj",
+	"version": "0.1.2",
+	"keywords" : ["svn", "monitor", "logs", "poll", "subversion", "commits"],
 	"description": "A simple command-line wrapper for getting log info from a Subversion repo",
-	"main": "./lib/svnmonitor"
+	"main": "index.js",
+	"homepage" : "https://github.com/puj/svnmonitor",
+	"repository": {
+ 	   "type": "git",
+ 	   "url":"git://github.com:puj/svnmonitor.git"
+	} 
 }
