@@ -1,7 +1,7 @@
 {
 	"name": "svnmonitor",
 	"author" : "Puj",
-	"version": "0.1.6",
+	"version": "0.2.1",
 	"keywords" : ["svn", "monitor", "logs", "poll", "subversion", "commits"],
 	"description": "A simple command-line wrapper for getting log info from a Subversion repo",
 	"main": "index.js",
