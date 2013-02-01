@@ -21,29 +21,25 @@ Currently only supports the 'svn log' command.
 
 
 ##Usage:
-	svnMonitor.init("http://extjs-public.googlecode.com/svn/trunk",{
-		//user : 'username',
-		//pass : 'password',	
-		callback : function(){
-			svnMonitor.getLatestCommits({
-				//limit:3,
-				callback: function(err, revisions){
-					if(err){
-						console.log('Error: ' + err);
-						return;
-					}
+	var SVNMonitor = require("svmonitor");
 
-					console.log(revisions)
-				}
-			});
-	}});
+	var svnMon = new SVNMonitor(
+	        "svn://extjs-public.googlecode.com/svn/trunk",
+	        "username",
+	        "password"
+	);
 
-Username and password are optional to init. 
-Url is required.
+	svnMon.getLatestCommits("30", function(err, log){
+		if(err){
+			console.log('Error: ' + err);
+			return;
+		}
+
+        console.log(log);
+	});
 
 Currently getLatestCommits is the only functionality. 
 If no limit is provided, all log entries are retrieved.
-
 
 revisions is structured as follows:  
 
